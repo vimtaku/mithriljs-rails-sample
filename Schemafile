@@ -1,0 +1,5 @@
+
+create_table :books, force: true do |t|
+  t.string :name, null: false, default: ''
+  t.timestamps null: false
+end
